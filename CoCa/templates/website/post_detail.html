@@ -1,0 +1,13 @@
+{% extends 'website/base.html' %}
+
+{% block content %}
+    <div class="post">
+        {% if post.timestamp %}
+            <div class="date">
+                published on: {{ post.timestamp }} by {{post.author}}
+            </div>
+        {% endif %}
+        <br>
+        <p>{{ post.content|linebreaks }}</p>
+    </div>
+{% endblock %}

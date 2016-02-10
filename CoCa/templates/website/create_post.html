@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+{% extends 'website/base.html' %}
+
+{% block content %}
+
+    <h1>Create Post</h1>
+
+    <form method="POST"> {% csrf_token %}
+        {{ form.as_p }}
+        <a href="{% url 'home' %}">
+            <input type="submit" value="Submit" />
+        </a>
+    </form>
+
+{% endblock %}

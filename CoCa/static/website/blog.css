@@ -1,0 +1,117 @@
+.page-header {
+    background-color: #ff9933;
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+    padding-bottom:12px;
+    top:0;
+    z-index:2000;
+}
+
+
+.content-container{
+    margin: 100px auto;
+    width=975px;
+    padding: 30px;
+}
+
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+    padding-left:10px;
+    font-family: 'Oswald'
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oswald';
+}
+
+.sidebar h2 {
+    font-size:18;
+}
+
+.date {
+    float: left;
+    color: #828282;
+    font-size: 8px;
+}
+
+.save {
+    float: right;
+}
+
+.content-text{
+    text-align:justify;
+    left:0;
+}
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 50px;
+
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}
+
+.sidebar{
+    line-height:30px;
+    background-color:#ffffff;
+    height:100%;
+    width:200px;
+    padding:5px;
+    position:fixed;
+    float:left;
+}
+
+#post-title{
+    font-color: #0000000
+}
+
+
+.section{
+    width:80%;
+    float:right;
+    padding:10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff9933;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffffff;
+    font-color:#ff9933;
+}
